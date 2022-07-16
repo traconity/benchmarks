@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1657958016557,
+  "lastUpdate": 1657958046570,
   "repoUrl": "https://github.com/traconity/tracon",
   "entries": {
     "Benchmark": [
@@ -302,6 +302,36 @@ window.BENCHMARK_DATA = {
             "value": 1498617382.6923077,
             "unit": "ns",
             "range": "± 20272608.122271948"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jjones@outlook.cz",
+            "name": "Jan Joneš",
+            "username": "jjonescz"
+          },
+          "committer": {
+            "email": "jjones@outlook.cz",
+            "name": "Jan Joneš",
+            "username": "jjonescz"
+          },
+          "distinct": true,
+          "id": "4e567657fb4249b3a3f8cba843d711afb90989e6",
+          "message": "Use `record` to hold timetable stats",
+          "timestamp": "2022-07-16T09:45:41+02:00",
+          "tree_id": "290b6f55fb97a364353a4f4f6b81ff544327d701",
+          "url": "https://github.com/traconity/tracon/commit/4e567657fb4249b3a3f8cba843d711afb90989e6"
+        },
+        "date": 1657958046324,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Tracon.Benchmarks.PlanningBenchmark.CellList",
+            "value": 1542619352.5,
+            "unit": "ns",
+            "range": "± 12177400.314206325"
           }
         ]
       }
