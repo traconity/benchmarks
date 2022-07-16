@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1657958106497,
+  "lastUpdate": 1657958153220,
   "repoUrl": "https://github.com/traconity/tracon",
   "entries": {
     "Benchmark": [
@@ -362,6 +362,36 @@ window.BENCHMARK_DATA = {
             "value": 1497467091.9285715,
             "unit": "ns",
             "range": "± 7027806.831667632"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jjones@outlook.cz",
+            "name": "Jan Jones",
+            "username": "jjonescz"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "28394b78106fa6e0d34864ed399d08b257032b44",
+          "message": "Merge pull request #133 from traconity/renovate/protobuf-net-3.x\n\nUpdate dependency protobuf-net to v3.1.17",
+          "timestamp": "2022-07-16T09:45:06+02:00",
+          "tree_id": "531f238f70dd824f501f66f36f7a4e9000b2068e",
+          "url": "https://github.com/traconity/tracon/commit/28394b78106fa6e0d34864ed399d08b257032b44"
+        },
+        "date": 1657958151421,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Tracon.Benchmarks.PlanningBenchmark.CellList",
+            "value": 870633194.3846154,
+            "unit": "ns",
+            "range": "± 7071979.299785322"
           }
         ]
       }
