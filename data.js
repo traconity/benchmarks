@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1657957900514,
+  "lastUpdate": 1657958016557,
   "repoUrl": "https://github.com/traconity/tracon",
   "entries": {
     "Benchmark": [
@@ -272,6 +272,36 @@ window.BENCHMARK_DATA = {
             "value": 1286026972.7142856,
             "unit": "ns",
             "range": "± 6747041.301592236"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jjones@outlook.cz",
+            "name": "Jan Jones",
+            "username": "jjonescz"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3ffb7a73191375d0bd002608901e72828b889621",
+          "message": "Merge pull request #136 from traconity/renovate/dotnet\n\nUpdate dotnet",
+          "timestamp": "2022-07-16T09:41:11+02:00",
+          "tree_id": "28bcde3637d85b171b808527af1fc23e1ccc1035",
+          "url": "https://github.com/traconity/tracon/commit/3ffb7a73191375d0bd002608901e72828b889621"
+        },
+        "date": 1657958016088,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Tracon.Benchmarks.PlanningBenchmark.CellList",
+            "value": 1498617382.6923077,
+            "unit": "ns",
+            "range": "± 20272608.122271948"
           }
         ]
       }
