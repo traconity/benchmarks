@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1657958046570,
+  "lastUpdate": 1657958106497,
   "repoUrl": "https://github.com/traconity/tracon",
   "entries": {
     "Benchmark": [
@@ -332,6 +332,36 @@ window.BENCHMARK_DATA = {
             "value": 1542619352.5,
             "unit": "ns",
             "range": "± 12177400.314206325"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jjones@outlook.cz",
+            "name": "Jan Jones",
+            "username": "jjonescz"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "84549e7cb6e103e4b461af0d3898be6a7791aecc",
+          "message": "Merge pull request #135 from traconity/renovate/csvhelper-28.x\n\nUpdate dependency CsvHelper to v28",
+          "timestamp": "2022-07-16T09:43:52+02:00",
+          "tree_id": "791c361198e7d1b99bb605690c61d9eb938605bf",
+          "url": "https://github.com/traconity/tracon/commit/84549e7cb6e103e4b461af0d3898be6a7791aecc"
+        },
+        "date": 1657958106244,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Tracon.Benchmarks.PlanningBenchmark.CellList",
+            "value": 1497467091.9285715,
+            "unit": "ns",
+            "range": "± 7027806.831667632"
           }
         ]
       }
