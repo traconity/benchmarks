@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1657914980505,
+  "lastUpdate": 1657957900514,
   "repoUrl": "https://github.com/traconity/tracon",
   "entries": {
     "Benchmark": [
@@ -242,6 +242,36 @@ window.BENCHMARK_DATA = {
             "value": 1411426908.2272727,
             "unit": "ns",
             "range": "± 34653040.976147346"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jjones@outlook.cz",
+            "name": "Jan Jones",
+            "username": "jjonescz"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "32aa29e4d8aa39c2cd9176b49e3ad2256f651084",
+          "message": "Merge pull request #137 from traconity/renovate/dotnet-maui-6.x\n\nUpdate dependency dotnet/maui to v6.0.408",
+          "timestamp": "2022-07-16T09:41:26+02:00",
+          "tree_id": "0fd160e22a155b80e877b90926f1dee4e12a4bcb",
+          "url": "https://github.com/traconity/tracon/commit/32aa29e4d8aa39c2cd9176b49e3ad2256f651084"
+        },
+        "date": 1657957900273,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Tracon.Benchmarks.PlanningBenchmark.CellList",
+            "value": 1286026972.7142856,
+            "unit": "ns",
+            "range": "± 6747041.301592236"
           }
         ]
       }
