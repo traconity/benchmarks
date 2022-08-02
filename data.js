@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1659384199969,
+  "lastUpdate": 1659398870709,
   "repoUrl": "https://github.com/traconity/tracon",
   "entries": {
     "Benchmark": [
@@ -470,6 +470,32 @@ window.BENCHMARK_DATA = {
             "value": 1332060584.357143,
             "unit": "ns",
             "range": "± 6949136.54530502"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "traconity",
+            "username": "traconity"
+          },
+          "committer": {
+            "name": "traconity",
+            "username": "traconity"
+          },
+          "id": "9c8b5aa9019a86943250b59406daaa45f8205ea0",
+          "message": "Update dependency xunit to v2.4.2",
+          "timestamp": "2022-05-25T14:24:14Z",
+          "url": "https://github.com/traconity/tracon/pull/139/commits/9c8b5aa9019a86943250b59406daaa45f8205ea0"
+        },
+        "date": 1659398870215,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Tracon.Benchmarks.PlanningBenchmark.CellList",
+            "value": 1330376940.7857144,
+            "unit": "ns",
+            "range": "± 2498286.653831202"
           }
         ]
       }
