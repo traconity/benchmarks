@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1661511618157,
+  "lastUpdate": 1664704701870,
   "repoUrl": "https://github.com/traconity/tracon",
   "entries": {
     "Benchmark": [
@@ -730,6 +730,36 @@ window.BENCHMARK_DATA = {
             "value": 1572074336.8148148,
             "unit": "ns",
             "range": "± 43649972.48035927"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jjones@outlook.cz",
+            "name": "Jan Joneš",
+            "username": "jjonescz"
+          },
+          "committer": {
+            "email": "jjones@outlook.cz",
+            "name": "Jan Joneš",
+            "username": "jjonescz"
+          },
+          "distinct": true,
+          "id": "b91293b5238677bedb7d14842b26e6c0cb8ffb3e",
+          "message": "Suppress warning until ref fields are available",
+          "timestamp": "2022-10-02T11:50:16+02:00",
+          "tree_id": "41585896b80db38153deeb50d0005638bdd45527",
+          "url": "https://github.com/traconity/tracon/commit/b91293b5238677bedb7d14842b26e6c0cb8ffb3e"
+        },
+        "date": 1664704700858,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Tracon.Benchmarks.PlanningBenchmark.CellList",
+            "value": 1481454658.8461537,
+            "unit": "ns",
+            "range": "± 13787467.24201244"
           }
         ]
       }
