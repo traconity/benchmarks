@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1664710044857,
+  "lastUpdate": 1664716717499,
   "repoUrl": "https://github.com/traconity/tracon",
   "entries": {
     "Benchmark": [
@@ -812,6 +812,36 @@ window.BENCHMARK_DATA = {
             "value": 1477511928.1111112,
             "unit": "ns",
             "range": "± 39914387.97835875"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jjones@outlook.cz",
+            "name": "Jan Joneš",
+            "username": "jjonescz"
+          },
+          "committer": {
+            "email": "jjones@outlook.cz",
+            "name": "Jan Joneš",
+            "username": "jjonescz"
+          },
+          "distinct": true,
+          "id": "59e8bc13e6fcd4bc66dd4f9b21cbda79cc000a84",
+          "message": "Update FlatBuffers",
+          "timestamp": "2022-10-02T15:08:25+02:00",
+          "tree_id": "52ce8be6e8733ac3932c3701f7cfe62633407d4b",
+          "url": "https://github.com/traconity/tracon/commit/59e8bc13e6fcd4bc66dd4f9b21cbda79cc000a84"
+        },
+        "date": 1664716717246,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Tracon.Benchmarks.PlanningBenchmark.CellList",
+            "value": 1227110547.4285715,
+            "unit": "ns",
+            "range": "± 2607352.8016307065"
           }
         ]
       }
