@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1664720006281,
+  "lastUpdate": 1664729888908,
   "repoUrl": "https://github.com/traconity/tracon",
   "entries": {
     "Benchmark": [
@@ -950,6 +950,36 @@ window.BENCHMARK_DATA = {
             "value": 1259422373.142857,
             "unit": "ns",
             "range": "± 2946246.003202794"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jjones@outlook.cz",
+            "name": "Jan Joneš",
+            "username": "jjonescz"
+          },
+          "committer": {
+            "email": "jjones@outlook.cz",
+            "name": "Jan Joneš",
+            "username": "jjonescz"
+          },
+          "distinct": true,
+          "id": "1b4ff939ed1b3af1034c7cc7f306c77bd5f0f454",
+          "message": "Handle binary file download errors\n\n[publish apk]",
+          "timestamp": "2022-10-02T18:51:01+02:00",
+          "tree_id": "d16d1ea0772c9e8f1e569eddd2fb291b0efd547d",
+          "url": "https://github.com/traconity/tracon/commit/1b4ff939ed1b3af1034c7cc7f306c77bd5f0f454"
+        },
+        "date": 1664729887970,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Tracon.Benchmarks.PlanningBenchmark.CellList",
+            "value": 1540235313.5333333,
+            "unit": "ns",
+            "range": "± 23977673.91540273"
           }
         ]
       }
