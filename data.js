@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1664718644495,
+  "lastUpdate": 1664720006281,
   "repoUrl": "https://github.com/traconity/tracon",
   "entries": {
     "Benchmark": [
@@ -920,6 +920,36 @@ window.BENCHMARK_DATA = {
             "value": 1587473021.1578948,
             "unit": "ns",
             "range": "± 34379958.80776784"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jjones@outlook.cz",
+            "name": "Jan Joneš",
+            "username": "jjonescz"
+          },
+          "committer": {
+            "email": "jjones@outlook.cz",
+            "name": "Jan Joneš",
+            "username": "jjonescz"
+          },
+          "distinct": true,
+          "id": "78823494fa6f92c8ee96eb859c98fc48e7d8dcfe",
+          "message": "Merge remote-tracking branch 'origin/renovate/dotnet'",
+          "timestamp": "2022-10-02T15:55:43+02:00",
+          "tree_id": "948263b5742e3e784e7680b12e75bd87a9574358",
+          "url": "https://github.com/traconity/tracon/commit/78823494fa6f92c8ee96eb859c98fc48e7d8dcfe"
+        },
+        "date": 1664720005885,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Tracon.Benchmarks.PlanningBenchmark.CellList",
+            "value": 1259422373.142857,
+            "unit": "ns",
+            "range": "± 2946246.003202794"
           }
         ]
       }
