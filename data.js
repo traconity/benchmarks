@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1665560455985,
+  "lastUpdate": 1665560661050,
   "repoUrl": "https://github.com/traconity/tracon",
   "entries": {
     "Benchmark": [
@@ -1122,6 +1122,32 @@ window.BENCHMARK_DATA = {
             "value": 1510671172,
             "unit": "ns",
             "range": "± 15594942.282163037"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "traconity",
+            "username": "traconity"
+          },
+          "committer": {
+            "name": "traconity",
+            "username": "traconity"
+          },
+          "id": "31a86574c5d3b9a6446d2fc7fec424e6529f0b14",
+          "message": "Update dependency dotnet/maui to v6.0.541",
+          "timestamp": "2022-05-25T14:24:14Z",
+          "url": "https://github.com/traconity/tracon/pull/155/commits/31a86574c5d3b9a6446d2fc7fec424e6529f0b14"
+        },
+        "date": 1665560660501,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Tracon.Benchmarks.PlanningBenchmark.CellList",
+            "value": 1293889650.2857144,
+            "unit": "ns",
+            "range": "± 2390072.86569811"
           }
         ]
       }
