@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1668019700044,
+  "lastUpdate": 1668111331745,
   "repoUrl": "https://github.com/traconity/tracon",
   "entries": {
     "Benchmark": [
@@ -1644,6 +1644,36 @@ window.BENCHMARK_DATA = {
             "value": 1284617495.357143,
             "unit": "ns",
             "range": "± 2462837.6076107384"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jjones@outlook.cz",
+            "name": "Jan Jones",
+            "username": "jjonescz"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "1831792a4654a47c6ce5052c6bc86a1d73741806",
+          "message": "Update dependency protobuf-net to v3.1.25 (#168)",
+          "timestamp": "2022-11-10T21:09:51+01:00",
+          "tree_id": "f683314b6ed6a25a75a0a0123edaa8ed38948074",
+          "url": "https://github.com/traconity/tracon/commit/1831792a4654a47c6ce5052c6bc86a1d73741806"
+        },
+        "date": 1668111331288,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Tracon.Benchmarks.PlanningBenchmark.CellList",
+            "value": 1210007507.0833333,
+            "unit": "ns",
+            "range": "± 2288341.5899270987"
           }
         ]
       }
