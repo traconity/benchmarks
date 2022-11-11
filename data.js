@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1668167606595,
+  "lastUpdate": 1668170069118,
   "repoUrl": "https://github.com/traconity/tracon",
   "entries": {
     "Benchmark": [
@@ -1700,6 +1700,36 @@ window.BENCHMARK_DATA = {
             "value": 1211162052.642857,
             "unit": "ns",
             "range": "± 1997513.8884033056"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jjones@outlook.cz",
+            "name": "Jan Jones",
+            "username": "jjonescz"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4782059a4c275bb50786d7ed9ab48905b7d49a8c",
+          "message": "Update dotnet to v7 (#169)",
+          "timestamp": "2022-11-11T13:27:03+01:00",
+          "tree_id": "22a271ac3922e3aa9111f662b7d2d30e96ddcb3d",
+          "url": "https://github.com/traconity/tracon/commit/4782059a4c275bb50786d7ed9ab48905b7d49a8c"
+        },
+        "date": 1668170068800,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Tracon.Benchmarks.PlanningBenchmark.CellList",
+            "value": 1315964338.7142856,
+            "unit": "ns",
+            "range": "± 1828943.5031639873"
           }
         ]
       }
