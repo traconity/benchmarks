@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1668246362650,
+  "lastUpdate": 1668852172102,
   "repoUrl": "https://github.com/traconity/tracon",
   "entries": {
     "Benchmark": [
@@ -1786,6 +1786,32 @@ window.BENCHMARK_DATA = {
             "value": 1225048771.5714285,
             "unit": "ns",
             "range": "± 1326716.5382037493"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "traconity",
+            "username": "traconity"
+          },
+          "committer": {
+            "name": "traconity",
+            "username": "traconity"
+          },
+          "id": "8d8e1601d9486589c45a682460b8bb98c0389bc3",
+          "message": "Update dependency System.IO.Abstractions to v17.2.26",
+          "timestamp": "2022-05-25T14:24:14Z",
+          "url": "https://github.com/traconity/tracon/pull/171/commits/8d8e1601d9486589c45a682460b8bb98c0389bc3"
+        },
+        "date": 1668852171453,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Tracon.Benchmarks.PlanningBenchmark.CellList",
+            "value": 1666186735.85,
+            "unit": "ns",
+            "range": "± 36492277.69407614"
           }
         ]
       }
