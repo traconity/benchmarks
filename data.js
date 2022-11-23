@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1669192713581,
+  "lastUpdate": 1669238217827,
   "repoUrl": "https://github.com/traconity/tracon",
   "entries": {
     "Benchmark": [
@@ -1898,6 +1898,32 @@ window.BENCHMARK_DATA = {
             "value": 1529499442,
             "unit": "ns",
             "range": "± 17472672.58803001"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "traconity",
+            "username": "traconity"
+          },
+          "committer": {
+            "name": "traconity",
+            "username": "traconity"
+          },
+          "id": "352e352ac3b5f65bcc6f5b2b77fcf41f17043a7f",
+          "message": "Update dependency google/flatbuffers to v22.11.23",
+          "timestamp": "2022-05-25T14:24:14Z",
+          "url": "https://github.com/traconity/tracon/pull/173/commits/352e352ac3b5f65bcc6f5b2b77fcf41f17043a7f"
+        },
+        "date": 1669238217124,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Tracon.Benchmarks.PlanningBenchmark.CellList",
+            "value": 1590863898.1538463,
+            "unit": "ns",
+            "range": "± 22777136.059749775"
           }
         ]
       }
