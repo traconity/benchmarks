@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1670201457107,
+  "lastUpdate": 1670479541361,
   "repoUrl": "https://github.com/traconity/tracon",
   "entries": {
     "Benchmark": [
@@ -2036,6 +2036,32 @@ window.BENCHMARK_DATA = {
             "value": 1525774122.1333334,
             "unit": "ns",
             "range": "± 5013442.3021877445"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "traconity",
+            "username": "traconity"
+          },
+          "committer": {
+            "name": "traconity",
+            "username": "traconity"
+          },
+          "id": "9154acbdb10cbcc470c38402970c08012aeac48f",
+          "message": "Update nwtgck/actions-netlify action to v2",
+          "timestamp": "2022-05-25T14:24:14Z",
+          "url": "https://github.com/traconity/tracon/pull/176/commits/9154acbdb10cbcc470c38402970c08012aeac48f"
+        },
+        "date": 1670479540553,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Tracon.Benchmarks.PlanningBenchmark.CellList",
+            "value": 1463490879.715909,
+            "unit": "ns",
+            "range": "± 80261525.93638039"
           }
         ]
       }
