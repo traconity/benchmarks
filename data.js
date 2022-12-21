@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1671647971370,
+  "lastUpdate": 1671649537111,
   "repoUrl": "https://github.com/traconity/tracon",
   "entries": {
     "Benchmark": [
@@ -2360,6 +2360,36 @@ window.BENCHMARK_DATA = {
             "value": 1324962772.0714285,
             "unit": "ns",
             "range": "± 1722440.696871402"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jjones@outlook.cz",
+            "name": "Jan Jones",
+            "username": "jjonescz"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5ebddb7187fe2ef00b405cbfe1d45a9c5b480416",
+          "message": "Update dependency CliWrap to v3.6.0 (#183)",
+          "timestamp": "2022-12-21T19:59:39+01:00",
+          "tree_id": "2eedffbebaf68021a2f4c2a24c3f603d38c901e5",
+          "url": "https://github.com/traconity/tracon/commit/5ebddb7187fe2ef00b405cbfe1d45a9c5b480416"
+        },
+        "date": 1671649536542,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Tracon.Benchmarks.PlanningBenchmark.CellList",
+            "value": 1217417931.357143,
+            "unit": "ns",
+            "range": "± 1399194.6728819846"
           }
         ]
       }
