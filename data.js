@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1675239457738,
+  "lastUpdate": 1676059820904,
   "repoUrl": "https://github.com/traconity/tracon",
   "entries": {
     "Benchmark": [
@@ -2998,6 +2998,32 @@ window.BENCHMARK_DATA = {
             "value": 1221168368.142857,
             "unit": "ns",
             "range": "± 1502788.7420126037"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "traconity",
+            "username": "traconity"
+          },
+          "committer": {
+            "name": "traconity",
+            "username": "traconity"
+          },
+          "id": "546bbfeb1bfbf1b26c45cef227e94a47485af899",
+          "message": "Update dependency NReco.Logging.File to v1.1.6",
+          "timestamp": "2022-05-25T14:24:14Z",
+          "url": "https://github.com/traconity/tracon/pull/194/commits/546bbfeb1bfbf1b26c45cef227e94a47485af899"
+        },
+        "date": 1676059820265,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Tracon.Benchmarks.PlanningBenchmark.CellList",
+            "value": 1501959856.9333334,
+            "unit": "ns",
+            "range": "± 26112682.875341292"
           }
         ]
       }
