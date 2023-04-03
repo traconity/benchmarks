@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1680448970326,
+  "lastUpdate": 1680508375834,
   "repoUrl": "https://github.com/traconity/tracon",
   "entries": {
     "Benchmark": [
@@ -3938,6 +3938,36 @@ window.BENCHMARK_DATA = {
             "value": 1591005518.5,
             "unit": "ns",
             "range": "± 13309140.322790926"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jjones@outlook.cz",
+            "name": "Jan Jones",
+            "username": "jjonescz"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a4a1b5f9d09821399606ce360ad2391bd66c6617",
+          "message": "Update dependency IDisposableAnalyzers to v4.0.4 (#207)",
+          "timestamp": "2023-04-03T09:46:54+02:00",
+          "tree_id": "7e998cac3fe7d498e8cc536856d37cdbcfb5f837",
+          "url": "https://github.com/traconity/tracon/commit/a4a1b5f9d09821399606ce360ad2391bd66c6617"
+        },
+        "date": 1680508375299,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Tracon.Benchmarks.PlanningBenchmark.CellList",
+            "value": 1207238867.357143,
+            "unit": "ns",
+            "range": "± 4586982.549922312"
           }
         ]
       }
