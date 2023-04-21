@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1682018884818,
+  "lastUpdate": 1682061772815,
   "repoUrl": "https://github.com/traconity/tracon",
   "entries": {
     "Benchmark": [
@@ -4438,6 +4438,36 @@ window.BENCHMARK_DATA = {
             "value": 1316421836.357143,
             "unit": "ns",
             "range": "± 2597160.9004178923"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jjones@outlook.cz",
+            "name": "Jan Jones",
+            "username": "jjonescz"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "acda60447f694a47b1823f184cc2ccd1730b1799",
+          "message": "Update dependency FluentAssertions to v6.11.0 (#216)",
+          "timestamp": "2023-04-21T09:17:02+02:00",
+          "tree_id": "0f9747a112a2df6906f65273b7f0cf6397a2980f",
+          "url": "https://github.com/traconity/tracon/commit/acda60447f694a47b1823f184cc2ccd1730b1799"
+        },
+        "date": 1682061772491,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Tracon.Benchmarks.PlanningBenchmark.CellList",
+            "value": 1226179745.7142856,
+            "unit": "ns",
+            "range": "± 3273415.9900723896"
           }
         ]
       }
