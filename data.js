@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1683706249904,
+  "lastUpdate": 1683706507259,
   "repoUrl": "https://github.com/traconity/tracon",
   "entries": {
     "Benchmark": [
@@ -4710,6 +4710,36 @@ window.BENCHMARK_DATA = {
             "value": 1348286015.4615386,
             "unit": "ns",
             "range": "± 5902489.683822943"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jjones@outlook.cz",
+            "name": "Jan Jones",
+            "username": "jjonescz"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "70c71c1971d83bad05c0b83526fc849ee976a61d",
+          "message": "Update dependency dotnet/maui to v7.0.86 (#219)",
+          "timestamp": "2023-05-10T10:05:04+02:00",
+          "tree_id": "20158c0fa50f2f48f0ee9d77170f2714b4f68a52",
+          "url": "https://github.com/traconity/tracon/commit/70c71c1971d83bad05c0b83526fc849ee976a61d"
+        },
+        "date": 1683706506929,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Tracon.Benchmarks.PlanningBenchmark.CellList",
+            "value": 1298758241.9285715,
+            "unit": "ns",
+            "range": "± 3731052.072766721"
           }
         ]
       }
