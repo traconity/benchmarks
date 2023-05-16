@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1684254321818,
+  "lastUpdate": 1684255038493,
   "repoUrl": "https://github.com/traconity/tracon",
   "entries": {
     "Benchmark": [
@@ -4818,6 +4818,32 @@ window.BENCHMARK_DATA = {
             "value": 1252789838.2142856,
             "unit": "ns",
             "range": "± 2237784.128113763"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "traconity",
+            "username": "traconity"
+          },
+          "committer": {
+            "name": "traconity",
+            "username": "traconity"
+          },
+          "id": "37f057f08978aa2851779a378d6f1c3e0bd3f167",
+          "message": "Update mcr.microsoft.com/dotnet/sdk Docker tag to v7.0.302",
+          "timestamp": "2022-05-25T14:24:14Z",
+          "url": "https://github.com/traconity/tracon/pull/221/commits/37f057f08978aa2851779a378d6f1c3e0bd3f167"
+        },
+        "date": 1684255037815,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Tracon.Benchmarks.PlanningBenchmark.CellList",
+            "value": 1686626599.7083333,
+            "unit": "ns",
+            "range": "± 38608667.63720882"
           }
         ]
       }
