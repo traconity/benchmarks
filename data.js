@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1686331912528,
+  "lastUpdate": 1686332144300,
   "repoUrl": "https://github.com/traconity/tracon",
   "entries": {
     "Benchmark": [
@@ -5396,6 +5396,36 @@ window.BENCHMARK_DATA = {
             "value": 1688835287.2,
             "unit": "ns",
             "range": "± 13471359.786682647"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jjones@outlook.cz",
+            "name": "Jan Jones",
+            "username": "jjonescz"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ab88d9cad7365174ab9df7429e1382f75ab15da3",
+          "message": "Update dependency MiniProfiler.AspNetCore.Mvc to v4.3.8 (#226)",
+          "timestamp": "2023-06-09T19:22:09+02:00",
+          "tree_id": "7c4779c2b8793911aaa68e621258039d18389158",
+          "url": "https://github.com/traconity/tracon/commit/ab88d9cad7365174ab9df7429e1382f75ab15da3"
+        },
+        "date": 1686332143918,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Tracon.Benchmarks.PlanningBenchmark.CellList",
+            "value": 1562177569.3382354,
+            "unit": "ns",
+            "range": "± 74686990.38136508"
           }
         ]
       }
