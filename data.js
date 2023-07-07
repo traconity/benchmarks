@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1688718115043,
+  "lastUpdate": 1688718188305,
   "repoUrl": "https://github.com/traconity/tracon",
   "entries": {
     "Benchmark": [
@@ -6138,6 +6138,36 @@ window.BENCHMARK_DATA = {
             "value": 1396339038.1578948,
             "unit": "ns",
             "range": "± 29357624.26730116"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jjones@outlook.cz",
+            "name": "Jan Jones",
+            "username": "jjonescz"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "903a6d8bd081365a9ef60c8538becbc0ca0f6949",
+          "message": "Update dependency xunit.runner.visualstudio to v2.5.0 (#237)",
+          "timestamp": "2023-07-07T10:14:48+02:00",
+          "tree_id": "0ecbb24f77ea7632b1670cd7d1e59493dd6cb2a5",
+          "url": "https://github.com/traconity/tracon/commit/903a6d8bd081365a9ef60c8538becbc0ca0f6949"
+        },
+        "date": 1688718187589,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Tracon.Benchmarks.PlanningBenchmark.CellList",
+            "value": 1637408676.642857,
+            "unit": "ns",
+            "range": "± 1638857.622660117"
           }
         ]
       }
