@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1691563546437,
+  "lastUpdate": 1691564226420,
   "repoUrl": "https://github.com/traconity/tracon",
   "entries": {
     "Benchmark": [
@@ -6836,6 +6836,32 @@ window.BENCHMARK_DATA = {
             "value": 1337546103.8461537,
             "unit": "ns",
             "range": "± 1250972.8312213558"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "traconity",
+            "username": "traconity"
+          },
+          "committer": {
+            "name": "traconity",
+            "username": "traconity"
+          },
+          "id": "6c662d4f92bda3b51dcddaf0ef48b41d0338913c",
+          "message": "Update dependency Moq to v4.20.1",
+          "timestamp": "2022-05-25T14:24:14Z",
+          "url": "https://github.com/traconity/tracon/pull/247/commits/6c662d4f92bda3b51dcddaf0ef48b41d0338913c"
+        },
+        "date": 1691564225968,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Tracon.Benchmarks.PlanningBenchmark.CellList",
+            "value": 1330019737.5714285,
+            "unit": "ns",
+            "range": "± 2634222.7579385717"
           }
         ]
       }
