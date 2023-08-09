@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1691527104089,
+  "lastUpdate": 1691562159160,
   "repoUrl": "https://github.com/traconity/tracon",
   "entries": {
     "Benchmark": [
@@ -6780,6 +6780,36 @@ window.BENCHMARK_DATA = {
             "value": 1347733693.0714285,
             "unit": "ns",
             "range": "± 2014192.7715730176"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jjones@outlook.cz",
+            "name": "Jan Jones",
+            "username": "jjonescz"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9f4e514eaef892a24e6228c4008b12a78eae4cbd",
+          "message": "Update dependency dotnet/maui to v7.0.92 (#240)\n\n[publish apk]",
+          "timestamp": "2023-08-09T08:15:53+02:00",
+          "tree_id": "92c12a13bbd188b9c68a5d05168dc51c5955e6eb",
+          "url": "https://github.com/traconity/tracon/commit/9f4e514eaef892a24e6228c4008b12a78eae4cbd"
+        },
+        "date": 1691562158450,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Tracon.Benchmarks.PlanningBenchmark.CellList",
+            "value": 1604320043.5,
+            "unit": "ns",
+            "range": "± 5051399.615792055"
           }
         ]
       }
