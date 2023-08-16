@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1692169054170,
+  "lastUpdate": 1692206824409,
   "repoUrl": "https://github.com/traconity/tracon",
   "entries": {
     "Benchmark": [
@@ -7004,6 +7004,32 @@ window.BENCHMARK_DATA = {
             "value": 1573359865,
             "unit": "ns",
             "range": "± 2072125.5678584287"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "traconity",
+            "username": "traconity"
+          },
+          "committer": {
+            "name": "traconity",
+            "username": "traconity"
+          },
+          "id": "97ad57a4530ae0ca67b21f23a990582deaa89977",
+          "message": "Update dependency Microsoft.NET.Test.Sdk to v17.7.1",
+          "timestamp": "2022-05-25T14:24:14Z",
+          "url": "https://github.com/traconity/tracon/pull/252/commits/97ad57a4530ae0ca67b21f23a990582deaa89977"
+        },
+        "date": 1692206824033,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Tracon.Benchmarks.PlanningBenchmark.CellList",
+            "value": 1337667545,
+            "unit": "ns",
+            "range": "± 3126145.736659784"
           }
         ]
       }
