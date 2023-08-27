@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1692979356013,
+  "lastUpdate": 1693162795154,
   "repoUrl": "https://github.com/traconity/tracon",
   "entries": {
     "Benchmark": [
@@ -7418,6 +7418,32 @@ window.BENCHMARK_DATA = {
             "value": 1328036434.6,
             "unit": "ns",
             "range": "± 4945105.821318052"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "traconity",
+            "username": "traconity"
+          },
+          "committer": {
+            "name": "traconity",
+            "username": "traconity"
+          },
+          "id": "b588c305334d267db64c632bc1e85d8cad3cb2a4",
+          "message": "Use MudBlazor components",
+          "timestamp": "2022-05-25T14:24:14Z",
+          "url": "https://github.com/traconity/tracon/pull/263/commits/b588c305334d267db64c632bc1e85d8cad3cb2a4"
+        },
+        "date": 1693162794574,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Tracon.Benchmarks.PlanningBenchmark.CellList",
+            "value": 1335981126.357143,
+            "unit": "ns",
+            "range": "± 1631630.3886001976"
           }
         ]
       }
