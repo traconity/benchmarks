@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1693162795154,
+  "lastUpdate": 1693163847103,
   "repoUrl": "https://github.com/traconity/tracon",
   "entries": {
     "Benchmark": [
@@ -7444,6 +7444,36 @@ window.BENCHMARK_DATA = {
             "value": 1335981126.357143,
             "unit": "ns",
             "range": "± 1631630.3886001976"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jjones@outlook.cz",
+            "name": "Jan Jones",
+            "username": "jjonescz"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9883ae7f18844c8c2bb93eac4de858a2b86a8c1f",
+          "message": "Use MudBlazor components (#263)\n\n[publish apk]",
+          "timestamp": "2023-08-27T21:09:07+02:00",
+          "tree_id": "5538aea754ec1dc74b558c78390a2a3c57da9e0b",
+          "url": "https://github.com/traconity/tracon/commit/9883ae7f18844c8c2bb93eac4de858a2b86a8c1f"
+        },
+        "date": 1693163846458,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Tracon.Benchmarks.PlanningBenchmark.CellList",
+            "value": 1588079904.357143,
+            "unit": "ns",
+            "range": "± 4355661.408942436"
           }
         ]
       }
