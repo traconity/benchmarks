@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1693421109609,
+  "lastUpdate": 1693424534673,
   "repoUrl": "https://github.com/traconity/tracon",
   "entries": {
     "Benchmark": [
@@ -7642,6 +7642,36 @@ window.BENCHMARK_DATA = {
             "value": 1605035126.8461537,
             "unit": "ns",
             "range": "± 7673761.438300319"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jan.jones.cz@gmail.com",
+            "name": "Jan Jones",
+            "username": "jjonescz"
+          },
+          "committer": {
+            "email": "jan.jones.cz@gmail.com",
+            "name": "Jan Jones",
+            "username": "jjonescz"
+          },
+          "distinct": false,
+          "id": "9f20fc969c7fdedffe5a0039ecf4fe426519545b",
+          "message": "Install Python for Blazor WASM publishing",
+          "timestamp": "2023-08-30T19:16:59Z",
+          "tree_id": "1f2719521cc7c148e4af1c19ed732b01d3cd191e",
+          "url": "https://github.com/traconity/tracon/commit/9f20fc969c7fdedffe5a0039ecf4fe426519545b"
+        },
+        "date": 1693424533971,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Tracon.Benchmarks.PlanningBenchmark.CellList",
+            "value": 1297104024.4375,
+            "unit": "ns",
+            "range": "± 50712709.69138955"
           }
         ]
       }
