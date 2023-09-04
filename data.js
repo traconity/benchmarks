@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1693841297023,
+  "lastUpdate": 1693845752196,
   "repoUrl": "https://github.com/traconity/tracon",
   "entries": {
     "Benchmark": [
@@ -7754,6 +7754,36 @@ window.BENCHMARK_DATA = {
             "value": 1261148676.357143,
             "unit": "ns",
             "range": "± 2762500.439201597"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jjones@outlook.cz",
+            "name": "Jan Jones",
+            "username": "jjonescz"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d362cd916ced5eacfbdd4463c2665803ea8f6599",
+          "message": "Update actions/checkout action to v4 (#268)",
+          "timestamp": "2023-09-04T18:35:28+02:00",
+          "tree_id": "4729510e8d44b47afc335a21709cfcb5717eed72",
+          "url": "https://github.com/traconity/tracon/commit/d362cd916ced5eacfbdd4463c2665803ea8f6599"
+        },
+        "date": 1693845751829,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Tracon.Benchmarks.PlanningBenchmark.CellList",
+            "value": 1303170619.0769231,
+            "unit": "ns",
+            "range": "± 6299651.557275257"
           }
         ]
       }
