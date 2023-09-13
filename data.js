@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1694594431495,
+  "lastUpdate": 1694602999495,
   "repoUrl": "https://github.com/traconity/tracon",
   "entries": {
     "Benchmark": [
@@ -8034,6 +8034,32 @@ window.BENCHMARK_DATA = {
             "value": 1324634317.857143,
             "unit": "ns",
             "range": "± 2813180.307352841"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "traconity",
+            "username": "traconity"
+          },
+          "committer": {
+            "name": "traconity",
+            "username": "traconity"
+          },
+          "id": "57969bb7d97775b6936b010c5923d930614b6897",
+          "message": "Update dependency dotnet-sdk to v7.0.401",
+          "timestamp": "2022-05-25T14:24:14Z",
+          "url": "https://github.com/traconity/tracon/pull/273/commits/57969bb7d97775b6936b010c5923d930614b6897"
+        },
+        "date": 1694602998802,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Tracon.Benchmarks.PlanningBenchmark.CellList",
+            "value": 1332322977.4285715,
+            "unit": "ns",
+            "range": "± 2657504.593552401"
           }
         ]
       }
