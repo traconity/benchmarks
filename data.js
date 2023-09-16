@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1694887608014,
+  "lastUpdate": 1694893066823,
   "repoUrl": "https://github.com/traconity/tracon",
   "entries": {
     "Benchmark": [
@@ -8228,6 +8228,32 @@ window.BENCHMARK_DATA = {
             "value": 969046852.9285715,
             "unit": "ns",
             "range": "± 2117931.1549953455"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "traconity",
+            "username": "traconity"
+          },
+          "committer": {
+            "name": "traconity",
+            "username": "traconity"
+          },
+          "id": "1d97d68319fc49e50f6dcdee38e0a71982c90f89",
+          "message": "Revive WASM app",
+          "timestamp": "2022-05-25T14:24:14Z",
+          "url": "https://github.com/traconity/tracon/pull/276/commits/1d97d68319fc49e50f6dcdee38e0a71982c90f89"
+        },
+        "date": 1694893066387,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Tracon.Benchmarks.PlanningBenchmark.CellList",
+            "value": 1080810138.5,
+            "unit": "ns",
+            "range": "± 2879053.5108472113"
           }
         ]
       }
