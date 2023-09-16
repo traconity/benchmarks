@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1694717594752,
+  "lastUpdate": 1694885919722,
   "repoUrl": "https://github.com/traconity/tracon",
   "entries": {
     "Benchmark": [
@@ -8146,6 +8146,32 @@ window.BENCHMARK_DATA = {
             "value": 1337192414.2857144,
             "unit": "ns",
             "range": "± 4130565.508894755"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "traconity",
+            "username": "traconity"
+          },
+          "committer": {
+            "name": "traconity",
+            "username": "traconity"
+          },
+          "id": "07e353ac9cba0a300691124d60cdb59ac2a2cf2c",
+          "message": "Update to .NET 8",
+          "timestamp": "2022-05-25T14:24:14Z",
+          "url": "https://github.com/traconity/tracon/pull/275/commits/07e353ac9cba0a300691124d60cdb59ac2a2cf2c"
+        },
+        "date": 1694885919325,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Tracon.Benchmarks.PlanningBenchmark.CellList",
+            "value": 1066899204,
+            "unit": "ns",
+            "range": "± 2420510.4437965145"
           }
         ]
       }
