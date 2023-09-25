@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1695636741278,
+  "lastUpdate": 1695638228914,
   "repoUrl": "https://github.com/traconity/tracon",
   "entries": {
     "Benchmark": [
@@ -8444,6 +8444,36 @@ window.BENCHMARK_DATA = {
             "value": 990763480.1428572,
             "unit": "ns",
             "range": "± 4379855.773441612"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jjones@outlook.cz",
+            "name": "Jan Jones",
+            "username": "jjonescz"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8a0fd381273b2975d1745879067a752b7668bae7",
+          "message": "Update dependency NReco.Logging.File to v1.1.7 (#278)",
+          "timestamp": "2023-09-25T12:30:18+02:00",
+          "tree_id": "2bc0992c2d40241eb8535bf30f569c98e1efb40a",
+          "url": "https://github.com/traconity/tracon/commit/8a0fd381273b2975d1745879067a752b7668bae7"
+        },
+        "date": 1695638228540,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Tracon.Benchmarks.PlanningBenchmark.CellList",
+            "value": 1086835589.7142856,
+            "unit": "ns",
+            "range": "± 5954123.707365774"
           }
         ]
       }
