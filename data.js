@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1696856529576,
+  "lastUpdate": 1696858226126,
   "repoUrl": "https://github.com/traconity/tracon",
   "entries": {
     "Benchmark": [
@@ -8702,6 +8702,36 @@ window.BENCHMARK_DATA = {
             "value": 1070594697.5714285,
             "unit": "ns",
             "range": "± 7200949.605930593"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jan.jones.cz@gmail.com",
+            "name": "Jan Jones",
+            "username": "jjonescz"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f4937fe9a62241bc2792895abce263c3876394e3",
+          "message": "Add tagging to release instructions",
+          "timestamp": "2023-10-09T15:23:03+02:00",
+          "tree_id": "fc38bdad832a943246eb03f17a4047836a1cd011",
+          "url": "https://github.com/traconity/tracon/commit/f4937fe9a62241bc2792895abce263c3876394e3"
+        },
+        "date": 1696858225269,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Tracon.Benchmarks.PlanningBenchmark.CellList",
+            "value": 981588425.2857143,
+            "unit": "ns",
+            "range": "± 1363386.8791823278"
           }
         ]
       }
