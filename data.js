@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1696856114785,
+  "lastUpdate": 1696856529576,
   "repoUrl": "https://github.com/traconity/tracon",
   "entries": {
     "Benchmark": [
@@ -8672,6 +8672,36 @@ window.BENCHMARK_DATA = {
             "value": 1070351066.7857143,
             "unit": "ns",
             "range": "± 2488512.0016887193"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jan.jones.cz@gmail.com",
+            "name": "Jan Jones",
+            "username": "jjonescz"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ac53f9e24c6941bed44fae58125c7122c0aef36d",
+          "message": "Add release instructions\r\n\r\n[publish apk]",
+          "timestamp": "2023-10-09T14:55:13+02:00",
+          "tree_id": "a71b8f294e656f0dd64bb9c380dff47ca0a4a909",
+          "url": "https://github.com/traconity/tracon/commit/ac53f9e24c6941bed44fae58125c7122c0aef36d"
+        },
+        "date": 1696856529128,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Tracon.Benchmarks.PlanningBenchmark.CellList",
+            "value": 1070594697.5714285,
+            "unit": "ns",
+            "range": "± 7200949.605930593"
           }
         ]
       }
