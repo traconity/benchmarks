@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1696966327290,
+  "lastUpdate": 1696966579624,
   "repoUrl": "https://github.com/traconity/tracon",
   "entries": {
     "Benchmark": [
@@ -8758,6 +8758,32 @@ window.BENCHMARK_DATA = {
             "value": 1074418596.9285715,
             "unit": "ns",
             "range": "± 4268277.654999667"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "traconity",
+            "username": "traconity"
+          },
+          "committer": {
+            "name": "traconity",
+            "username": "traconity"
+          },
+          "id": "46963c8bb62cc0cda752266632192e2867c029e2",
+          "message": "Update dotnet monorepo to v8.0.0-rc.2.9373",
+          "timestamp": "2023-10-09T12:59:32Z",
+          "url": "https://github.com/traconity/tracon/pull/283/commits/46963c8bb62cc0cda752266632192e2867c029e2"
+        },
+        "date": 1696966579137,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Tracon.Benchmarks.PlanningBenchmark.CellList",
+            "value": 1073798658.7857144,
+            "unit": "ns",
+            "range": "± 2814597.5735455216"
           }
         ]
       }
