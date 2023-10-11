@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1696966579624,
+  "lastUpdate": 1697008518647,
   "repoUrl": "https://github.com/traconity/tracon",
   "entries": {
     "Benchmark": [
@@ -8784,6 +8784,36 @@ window.BENCHMARK_DATA = {
             "value": 1073798658.7857144,
             "unit": "ns",
             "range": "± 2814597.5735455216"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jjones@outlook.cz",
+            "name": "Jan Jones",
+            "username": "jjonescz"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7ee0b1f51296a181b57a3a7ec45e5ca2780ae1c4",
+          "message": "Add MAUI to dotnet group",
+          "timestamp": "2023-10-11T09:08:12+02:00",
+          "tree_id": "acd9773d3aaeefe66ed89e49dee1dbf99822a357",
+          "url": "https://github.com/traconity/tracon/commit/7ee0b1f51296a181b57a3a7ec45e5ca2780ae1c4"
+        },
+        "date": 1697008518190,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Tracon.Benchmarks.PlanningBenchmark.CellList",
+            "value": 1077608621.142857,
+            "unit": "ns",
+            "range": "± 3732313.608508243"
           }
         ]
       }
