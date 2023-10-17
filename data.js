@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1697494809665,
+  "lastUpdate": 1697526838797,
   "repoUrl": "https://github.com/traconity/tracon",
   "entries": {
     "Benchmark": [
@@ -9026,6 +9026,36 @@ window.BENCHMARK_DATA = {
             "value": 956055806.2142857,
             "unit": "ns",
             "range": "± 3331150.2434944916"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jjones@outlook.cz",
+            "name": "Jan Jones",
+            "username": "jjonescz"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ed840958b252b13b3a4d6ef1d8c1578bf8b92d28",
+          "message": "Update dependency xunit to v2.5.3 (#285)",
+          "timestamp": "2023-10-17T09:06:36+02:00",
+          "tree_id": "9d9d6dad21947d1650ca970de285b1bf65da0af0",
+          "url": "https://github.com/traconity/tracon/commit/ed840958b252b13b3a4d6ef1d8c1578bf8b92d28"
+        },
+        "date": 1697526838286,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Tracon.Benchmarks.PlanningBenchmark.CellList",
+            "value": 1068820487.4285715,
+            "unit": "ns",
+            "range": "± 1766228.4269281346"
           }
         ]
       }
