@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1698872645562,
+  "lastUpdate": 1698966034811,
   "repoUrl": "https://github.com/traconity/tracon",
   "entries": {
     "Benchmark": [
@@ -9224,6 +9224,32 @@ window.BENCHMARK_DATA = {
             "value": 1070931821.2307693,
             "unit": "ns",
             "range": "± 3670286.1028181477"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "traconity",
+            "username": "traconity"
+          },
+          "committer": {
+            "name": "traconity",
+            "username": "traconity"
+          },
+          "id": "73b9889dcde1d59c9ba1cc2cbec26a2864e89c37",
+          "message": "Update dependency xunit to v2.6.1",
+          "timestamp": "2023-10-09T12:59:32Z",
+          "url": "https://github.com/traconity/tracon/pull/289/commits/73b9889dcde1d59c9ba1cc2cbec26a2864e89c37"
+        },
+        "date": 1698966034024,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Tracon.Benchmarks.PlanningBenchmark.CellList",
+            "value": 970028106.3571428,
+            "unit": "ns",
+            "range": "± 1957864.0981391158"
           }
         ]
       }
