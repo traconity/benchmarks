@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1699207534475,
+  "lastUpdate": 1699210416875,
   "repoUrl": "https://github.com/traconity/tracon",
   "entries": {
     "Benchmark": [
@@ -9336,6 +9336,32 @@ window.BENCHMARK_DATA = {
             "value": 1051519565.2857143,
             "unit": "ns",
             "range": "± 4089963.690013217"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "traconity",
+            "username": "traconity"
+          },
+          "committer": {
+            "name": "traconity",
+            "username": "traconity"
+          },
+          "id": "169d1b989dfefb2bfc4976e6ebfb535962d0dc84",
+          "message": "Fix server since transitfeeds.com is not being updated anymore",
+          "timestamp": "2023-10-09T12:59:32Z",
+          "url": "https://github.com/traconity/tracon/pull/291/commits/169d1b989dfefb2bfc4976e6ebfb535962d0dc84"
+        },
+        "date": 1699210416400,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Tracon.Benchmarks.PlanningBenchmark.CellList",
+            "value": 1079505780.142857,
+            "unit": "ns",
+            "range": "± 2778224.356823641"
           }
         ]
       }
