@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1699476261369,
+  "lastUpdate": 1699477743836,
   "repoUrl": "https://github.com/traconity/tracon",
   "entries": {
     "Benchmark": [
@@ -9500,6 +9500,36 @@ window.BENCHMARK_DATA = {
             "value": 976970222.0769231,
             "unit": "ns",
             "range": "± 1902126.046263166"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jjones@outlook.cz",
+            "name": "Jan Jones",
+            "username": "jjonescz"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "64f695fb1a59ad6d007f828ba7816de49d3ab229",
+          "message": "Fix docs and config (#293)",
+          "timestamp": "2023-11-08T21:59:50+01:00",
+          "tree_id": "a014d31770aeb0d1467155cf160844e596a95d92",
+          "url": "https://github.com/traconity/tracon/commit/64f695fb1a59ad6d007f828ba7816de49d3ab229"
+        },
+        "date": 1699477743215,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Tracon.Benchmarks.PlanningBenchmark.CellList",
+            "value": 1276777607.5333333,
+            "unit": "ns",
+            "range": "± 2630106.7567449715"
           }
         ]
       }
