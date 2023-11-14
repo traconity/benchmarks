@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1699905654430,
+  "lastUpdate": 1699955396246,
   "repoUrl": "https://github.com/traconity/tracon",
   "entries": {
     "Benchmark": [
@@ -9556,6 +9556,36 @@ window.BENCHMARK_DATA = {
             "value": 1267593508.9285715,
             "unit": "ns",
             "range": "± 9311227.858074866"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jjones@outlook.cz",
+            "name": "Jan Jones",
+            "username": "jjonescz"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4478c28d6227b328586d30aaf81469f070335631",
+          "message": "Update actions/github-script action to v7 (#295)",
+          "timestamp": "2023-11-14T10:42:44+01:00",
+          "tree_id": "1f7debbf82687cc667c1517b8a906eaeb86cba26",
+          "url": "https://github.com/traconity/tracon/commit/4478c28d6227b328586d30aaf81469f070335631"
+        },
+        "date": 1699955395417,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Tracon.Benchmarks.PlanningBenchmark.CellList",
+            "value": 1064901311.6428572,
+            "unit": "ns",
+            "range": "± 2214733.5804805267"
           }
         ]
       }
