@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1701014947095,
+  "lastUpdate": 1701017261119,
   "repoUrl": "https://github.com/traconity/tracon",
   "entries": {
     "Benchmark": [
@@ -9948,6 +9948,32 @@ window.BENCHMARK_DATA = {
             "value": 977572971.1428572,
             "unit": "ns",
             "range": "± 12533699.28556556"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "traconity",
+            "username": "traconity"
+          },
+          "committer": {
+            "name": "traconity",
+            "username": "traconity"
+          },
+          "id": "66eeaaa8cb82520dbb4f271c104b6964dbdea2e6",
+          "message": "Update forgotten versions to .NET 8 GA",
+          "timestamp": "2023-10-09T12:59:32Z",
+          "url": "https://github.com/traconity/tracon/pull/301/commits/66eeaaa8cb82520dbb4f271c104b6964dbdea2e6"
+        },
+        "date": 1701017260407,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Tracon.Benchmarks.PlanningBenchmark.CellList",
+            "value": 966164224.3571428,
+            "unit": "ns",
+            "range": "± 2306655.8137152586"
           }
         ]
       }
