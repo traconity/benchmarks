@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1702030813108,
+  "lastUpdate": 1702035866480,
   "repoUrl": "https://github.com/traconity/tracon",
   "entries": {
     "Benchmark": [
@@ -10194,6 +10194,36 @@ window.BENCHMARK_DATA = {
             "value": 990237115.2857143,
             "unit": "ns",
             "range": "± 2065899.8553492904"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jjones@outlook.cz",
+            "name": "Jan Jones",
+            "username": "jjonescz"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5557cef07fbca23f69ee947e33309ab24bd63317",
+          "message": "Update dependency FluentAssertions.Analyzers to v0.27.0 (#305)",
+          "timestamp": "2023-12-08T12:37:06+01:00",
+          "tree_id": "6cc38e63bb492a85e9d23516d6d987264caf60d8",
+          "url": "https://github.com/traconity/tracon/commit/5557cef07fbca23f69ee947e33309ab24bd63317"
+        },
+        "date": 1702035865997,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Tracon.Benchmarks.PlanningBenchmark.CellList",
+            "value": 1034607165.4285715,
+            "unit": "ns",
+            "range": "± 6768166.045777323"
           }
         ]
       }
