@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1702631619825,
+  "lastUpdate": 1702632851560,
   "repoUrl": "https://github.com/traconity/tracon",
   "entries": {
     "Benchmark": [
@@ -10362,6 +10362,36 @@ window.BENCHMARK_DATA = {
             "value": 1113818360.7586207,
             "unit": "ns",
             "range": "± 27848186.692099895"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jjones@outlook.cz",
+            "name": "Jan Jones",
+            "username": "jjonescz"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b53c7ba9f444b58ef3c031fdbc93bde934b39092",
+          "message": "Update actions/upload-artifact action to v4 (#308)",
+          "timestamp": "2023-12-15T10:27:06+01:00",
+          "tree_id": "56ab9d26abe99890336f0a788347eed76d416126",
+          "url": "https://github.com/traconity/tracon/commit/b53c7ba9f444b58ef3c031fdbc93bde934b39092"
+        },
+        "date": 1702632850904,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Tracon.Benchmarks.PlanningBenchmark.CellList",
+            "value": 975201883.0769231,
+            "unit": "ns",
+            "range": "± 5169301.933582706"
           }
         ]
       }
