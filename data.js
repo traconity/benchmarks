@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1704485714321,
+  "lastUpdate": 1704626852163,
   "repoUrl": "https://github.com/traconity/tracon",
   "entries": {
     "Benchmark": [
@@ -10836,6 +10836,36 @@ window.BENCHMARK_DATA = {
             "value": 997725681.2307693,
             "unit": "ns",
             "range": "± 4272442.488867037"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jjones@outlook.cz",
+            "name": "Jan Jones",
+            "username": "jjonescz"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "21426aaca42eb30c17cd9ecd9705f54fdedca92c",
+          "message": "Update dependency BenchmarkDotNet to v0.13.12 (#316)",
+          "timestamp": "2024-01-07T12:20:46+01:00",
+          "tree_id": "f09f91b7676a551db8b94a59599695daf5385043",
+          "url": "https://github.com/traconity/tracon/commit/21426aaca42eb30c17cd9ecd9705f54fdedca92c"
+        },
+        "date": 1704626851390,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Tracon.Benchmarks.PlanningBenchmark.CellList",
+            "value": 994059265.1428572,
+            "unit": "ns",
+            "range": "± 2641525.3705911567"
           }
         ]
       }
