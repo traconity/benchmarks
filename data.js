@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1704832032292,
+  "lastUpdate": 1704901340352,
   "repoUrl": "https://github.com/traconity/tracon",
   "entries": {
     "Benchmark": [
@@ -10918,6 +10918,36 @@ window.BENCHMARK_DATA = {
             "value": 1076059581.857143,
             "unit": "ns",
             "range": "± 6160917.324568213"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jjones@outlook.cz",
+            "name": "Jan Joneš",
+            "username": "jjonescz"
+          },
+          "committer": {
+            "email": "jjones@outlook.cz",
+            "name": "Jan Joneš",
+            "username": "jjonescz"
+          },
+          "distinct": true,
+          "id": "536c432b4bc923c9f051151d6ecf10be2caca623",
+          "message": "Update `dotnet` renovatebot config",
+          "timestamp": "2024-01-10T16:34:13+01:00",
+          "tree_id": "a876ba7ffe5a303205ada8f9853596420dcc21b8",
+          "url": "https://github.com/traconity/tracon/commit/536c432b4bc923c9f051151d6ecf10be2caca623"
+        },
+        "date": 1704901339523,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Tracon.Benchmarks.PlanningBenchmark.CellList",
+            "value": 1276746332.3076923,
+            "unit": "ns",
+            "range": "± 15094764.39131545"
           }
         ]
       }
