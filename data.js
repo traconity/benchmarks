@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1705513086276,
+  "lastUpdate": 1705514482766,
   "repoUrl": "https://github.com/traconity/tracon",
   "entries": {
     "Benchmark": [
@@ -11276,6 +11276,36 @@ window.BENCHMARK_DATA = {
             "value": 1109854810.7857144,
             "unit": "ns",
             "range": "± 4278908.125698482"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jjones@outlook.cz",
+            "name": "Jan Jones",
+            "username": "jjonescz"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f9e808ba1dfa7099fbb6d3115760fcb2a043ce8d",
+          "message": "Update actions/cache action to v4 (#323)",
+          "timestamp": "2024-01-17T18:54:33+01:00",
+          "tree_id": "1bf209c962cf0eff585e471ec3d4efa744e49e89",
+          "url": "https://github.com/traconity/tracon/commit/f9e808ba1dfa7099fbb6d3115760fcb2a043ce8d"
+        },
+        "date": 1705514481946,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Tracon.Benchmarks.PlanningBenchmark.CellList",
+            "value": 992666794.8571428,
+            "unit": "ns",
+            "range": "± 3356303.612859193"
           }
         ]
       }
