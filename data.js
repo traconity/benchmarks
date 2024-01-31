@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1706692535241,
+  "lastUpdate": 1706726656261,
   "repoUrl": "https://github.com/traconity/tracon",
   "entries": {
     "Benchmark": [
@@ -11526,6 +11526,36 @@ window.BENCHMARK_DATA = {
             "value": 1017891668.3846154,
             "unit": "ns",
             "range": "± 2013531.842615339"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jjones@outlook.cz",
+            "name": "Jan Jones",
+            "username": "jjonescz"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4001e870fc25eb97a9c62f0a8e552df6c3236727",
+          "message": "Update dependency CsvHelper to v30.1.0 (#328)",
+          "timestamp": "2024-01-31T19:37:52+01:00",
+          "tree_id": "691e6d445cdf7c2a8e2b23cd8fd2379d21f81cfd",
+          "url": "https://github.com/traconity/tracon/commit/4001e870fc25eb97a9c62f0a8e552df6c3236727"
+        },
+        "date": 1706726655695,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Tracon.Benchmarks.PlanningBenchmark.CellList",
+            "value": 968749418.2142857,
+            "unit": "ns",
+            "range": "± 6136957.235829661"
           }
         ]
       }
