@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1710335371531,
+  "lastUpdate": 1710336518947,
   "repoUrl": "https://github.com/traconity/tracon",
   "entries": {
     "Benchmark": [
@@ -12642,6 +12642,36 @@ window.BENCHMARK_DATA = {
             "value": 752355417.5833334,
             "unit": "ns",
             "range": "± 9782884.393091107"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jjones@outlook.cz",
+            "name": "Jan Jones",
+            "username": "jjonescz"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4f81afaddae311ccbee0c671e1d19fe5fa509db2",
+          "message": "Update dependency dotnet-sdk to v8.0.202 (#346)",
+          "timestamp": "2024-03-13T14:21:56+01:00",
+          "tree_id": "82445218d36195b2d5920eaf7ab1baaa66b855e6",
+          "url": "https://github.com/traconity/tracon/commit/4f81afaddae311ccbee0c671e1d19fe5fa509db2"
+        },
+        "date": 1710336518117,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Tracon.Benchmarks.PlanningBenchmark.CellList",
+            "value": 769077740.5384616,
+            "unit": "ns",
+            "range": "± 6310750.3112097215"
           }
         ]
       }
