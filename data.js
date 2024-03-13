@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1710281465333,
+  "lastUpdate": 1710289984063,
   "repoUrl": "https://github.com/traconity/tracon",
   "entries": {
     "Benchmark": [
@@ -12530,6 +12530,32 @@ window.BENCHMARK_DATA = {
             "value": 1071156489.1428572,
             "unit": "ns",
             "range": "± 2486141.1250817184"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "traconity",
+            "username": "traconity"
+          },
+          "committer": {
+            "name": "traconity",
+            "username": "traconity"
+          },
+          "id": "9c7d97abf4b97a871ac2e0f9118dacc0fa51416f",
+          "message": "Update dependency coverlet.collector to v6.0.2",
+          "timestamp": "2023-10-09T12:59:32Z",
+          "url": "https://github.com/traconity/tracon/pull/345/commits/9c7d97abf4b97a871ac2e0f9118dacc0fa51416f"
+        },
+        "date": 1710289983567,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Tracon.Benchmarks.PlanningBenchmark.CellList",
+            "value": 757622195.6923077,
+            "unit": "ns",
+            "range": "± 6947160.5322986385"
           }
         ]
       }
