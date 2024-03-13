@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1710321440458,
+  "lastUpdate": 1710335371531,
   "repoUrl": "https://github.com/traconity/tracon",
   "entries": {
     "Benchmark": [
@@ -12616,6 +12616,32 @@ window.BENCHMARK_DATA = {
             "value": 756643890.7142857,
             "unit": "ns",
             "range": "± 4884543.657944209"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "traconity",
+            "username": "traconity"
+          },
+          "committer": {
+            "name": "traconity",
+            "username": "traconity"
+          },
+          "id": "d470a3b2860cbbd0bf4e9ccd920e2ce203c51e42",
+          "message": "Update dependency dotnet-sdk to v8.0.202",
+          "timestamp": "2023-10-09T12:59:32Z",
+          "url": "https://github.com/traconity/tracon/pull/346/commits/d470a3b2860cbbd0bf4e9ccd920e2ce203c51e42"
+        },
+        "date": 1710335370984,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Tracon.Benchmarks.PlanningBenchmark.CellList",
+            "value": 752355417.5833334,
+            "unit": "ns",
+            "range": "± 9782884.393091107"
           }
         ]
       }
