@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1714291817579,
+  "lastUpdate": 1714292657517,
   "repoUrl": "https://github.com/traconity/tracon",
   "entries": {
     "Benchmark": [
@@ -13478,6 +13478,32 @@ window.BENCHMARK_DATA = {
             "value": 765497577.2142857,
             "unit": "ns",
             "range": "± 8092847.562783564"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "traconity",
+            "username": "traconity"
+          },
+          "committer": {
+            "name": "traconity",
+            "username": "traconity"
+          },
+          "id": "bef5d8d0f84263e1910b36d48d06af2f02623ded",
+          "message": "Update xunit-dotnet monorepo to v2.8.0",
+          "timestamp": "2024-04-27T11:26:30Z",
+          "url": "https://github.com/traconity/tracon/pull/359/commits/bef5d8d0f84263e1910b36d48d06af2f02623ded"
+        },
+        "date": 1714292656718,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Tracon.Benchmarks.PlanningBenchmark.CellList",
+            "value": 761764989.1538461,
+            "unit": "ns",
+            "range": "± 5564392.002436637"
           }
         ]
       }
