@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1714217584231,
+  "lastUpdate": 1714291817579,
   "repoUrl": "https://github.com/traconity/tracon",
   "entries": {
     "Benchmark": [
@@ -13448,6 +13448,36 @@ window.BENCHMARK_DATA = {
             "value": 748724002.5833334,
             "unit": "ns",
             "range": "± 5567360.514750438"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jan.jones.cz@gmail.com",
+            "name": "Jan Jones",
+            "username": "jjonescz"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ea8f091429e67df0d83edd2dc9772fcc7f23eb8c",
+          "message": "Increase timeouts",
+          "timestamp": "2024-04-28T10:03:35+02:00",
+          "tree_id": "cc3cdd04194d4e1df1b6b6008ddcc1e03c512bc6",
+          "url": "https://github.com/traconity/tracon/commit/ea8f091429e67df0d83edd2dc9772fcc7f23eb8c"
+        },
+        "date": 1714291817009,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Tracon.Benchmarks.PlanningBenchmark.CellList",
+            "value": 765497577.2142857,
+            "unit": "ns",
+            "range": "± 8092847.562783564"
           }
         ]
       }
