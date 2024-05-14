@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1715630803651,
+  "lastUpdate": 1715726694323,
   "repoUrl": "https://github.com/traconity/tracon",
   "entries": {
     "Benchmark": [
@@ -13646,6 +13646,32 @@ window.BENCHMARK_DATA = {
             "value": 781639303.0714285,
             "unit": "ns",
             "range": "± 4895518.049944638"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "traconity",
+            "username": "traconity"
+          },
+          "committer": {
+            "name": "traconity",
+            "username": "traconity"
+          },
+          "id": "84c776290ee9db49566606398971e1c3209566a8",
+          "message": "Update dotnet",
+          "timestamp": "2024-05-13T20:00:18Z",
+          "url": "https://github.com/traconity/tracon/pull/362/commits/84c776290ee9db49566606398971e1c3209566a8"
+        },
+        "date": 1715726693574,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Tracon.Benchmarks.PlanningBenchmark.CellList",
+            "value": 749802407.6428572,
+            "unit": "ns",
+            "range": "± 5383992.398332737"
           }
         ]
       }
