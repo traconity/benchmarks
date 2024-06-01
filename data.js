@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1717054969702,
+  "lastUpdate": 1717248013087,
   "repoUrl": "https://github.com/traconity/tracon",
   "entries": {
     "Benchmark": [
@@ -14030,6 +14030,32 @@ window.BENCHMARK_DATA = {
             "value": 749809588.8333334,
             "unit": "ns",
             "range": "± 4719735.430141471"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "traconity",
+            "username": "traconity"
+          },
+          "committer": {
+            "name": "traconity",
+            "username": "traconity"
+          },
+          "id": "7c5452a7b4b298bb981c3071de096f9603dae874",
+          "message": "Update dependency MartinCostello.Logging.XUnit to v0.4.0",
+          "timestamp": "2024-05-30T07:28:18Z",
+          "url": "https://github.com/traconity/tracon/pull/367/commits/7c5452a7b4b298bb981c3071de096f9603dae874"
+        },
+        "date": 1717248012553,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Tracon.Benchmarks.PlanningBenchmark.CellList",
+            "value": 751572815.7142857,
+            "unit": "ns",
+            "range": "± 5558488.857726939"
           }
         ]
       }
