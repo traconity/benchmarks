@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1717248013087,
+  "lastUpdate": 1717254382141,
   "repoUrl": "https://github.com/traconity/tracon",
   "entries": {
     "Benchmark": [
@@ -14056,6 +14056,36 @@ window.BENCHMARK_DATA = {
             "value": 751572815.7142857,
             "unit": "ns",
             "range": "± 5558488.857726939"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jjones@outlook.cz",
+            "name": "Jan Jones",
+            "username": "jjonescz"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2424e7bc3c052abca9643b47737b3f4fe6aa6543",
+          "message": "Update dependency MartinCostello.Logging.XUnit to v0.4.0 (#367)",
+          "timestamp": "2024-06-01T16:59:51+02:00",
+          "tree_id": "699b452b0e2323844ee50e076f390a7d28cfaa71",
+          "url": "https://github.com/traconity/tracon/commit/2424e7bc3c052abca9643b47737b3f4fe6aa6543"
+        },
+        "date": 1717254381648,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Tracon.Benchmarks.PlanningBenchmark.CellList",
+            "value": 778239144.2857143,
+            "unit": "ns",
+            "range": "± 5221153.39148463"
           }
         ]
       }
