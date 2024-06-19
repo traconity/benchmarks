@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1718639086251,
+  "lastUpdate": 1718815984492,
   "repoUrl": "https://github.com/traconity/tracon",
   "entries": {
     "Benchmark": [
@@ -14418,6 +14418,32 @@ window.BENCHMARK_DATA = {
             "value": 752293838.4285715,
             "unit": "ns",
             "range": "± 5661277.32110163"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "traconity",
+            "username": "traconity"
+          },
+          "committer": {
+            "name": "traconity",
+            "username": "traconity"
+          },
+          "id": "d6a52cce23949910dfdcc9a25a974e5b503291cf",
+          "message": "Update dependency IDisposableAnalyzers to v4.0.8",
+          "timestamp": "2024-06-17T15:38:29Z",
+          "url": "https://github.com/traconity/tracon/pull/373/commits/d6a52cce23949910dfdcc9a25a974e5b503291cf"
+        },
+        "date": 1718815983772,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Tracon.Benchmarks.PlanningBenchmark.CellList",
+            "value": 752611472.2142857,
+            "unit": "ns",
+            "range": "± 6888662.653925978"
           }
         ]
       }
