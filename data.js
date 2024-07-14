@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1720907948995,
+  "lastUpdate": 1720945629597,
   "repoUrl": "https://github.com/traconity/tracon",
   "entries": {
     "Benchmark": [
@@ -14884,6 +14884,36 @@ window.BENCHMARK_DATA = {
             "value": 749507994.5,
             "unit": "ns",
             "range": "± 5002735.091653038"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jjones@outlook.cz",
+            "name": "Jan Jones",
+            "username": "jjonescz"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a24c970c86bbe7ec843625ac755cb2dcd2b59f89",
+          "message": "Update dependency System.IO.Abstractions to v21.0.26 (#381)",
+          "timestamp": "2024-07-14T10:21:01+02:00",
+          "tree_id": "34d5d5dc856d86866ed3b007b30273f9b7dfd54f",
+          "url": "https://github.com/traconity/tracon/commit/a24c970c86bbe7ec843625ac755cb2dcd2b59f89"
+        },
+        "date": 1720945629056,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Tracon.Benchmarks.PlanningBenchmark.CellList",
+            "value": 746748541.6428572,
+            "unit": "ns",
+            "range": "± 6728050.847426737"
           }
         ]
       }
