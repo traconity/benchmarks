@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1721160416705,
+  "lastUpdate": 1721243485749,
   "repoUrl": "https://github.com/traconity/tracon",
   "entries": {
     "Benchmark": [
@@ -15026,6 +15026,32 @@ window.BENCHMARK_DATA = {
             "value": 754485313.0714285,
             "unit": "ns",
             "range": "± 8606300.139580963"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "traconity",
+            "username": "traconity"
+          },
+          "committer": {
+            "name": "traconity",
+            "username": "traconity"
+          },
+          "id": "c1bbe53aa28b8940c05e58b26060e528a74d4189",
+          "message": "Update dependency MudBlazor to v7.3.0",
+          "timestamp": "2024-07-16T20:00:46Z",
+          "url": "https://github.com/traconity/tracon/pull/382/commits/c1bbe53aa28b8940c05e58b26060e528a74d4189"
+        },
+        "date": 1721243484711,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Tracon.Benchmarks.PlanningBenchmark.CellList",
+            "value": 755807912.6923077,
+            "unit": "ns",
+            "range": "± 5801797.528989362"
           }
         ]
       }
