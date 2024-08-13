@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1723096137636,
+  "lastUpdate": 1723557296830,
   "repoUrl": "https://github.com/traconity/tracon",
   "entries": {
     "Benchmark": [
@@ -15474,6 +15474,32 @@ window.BENCHMARK_DATA = {
             "value": 756222145.8571428,
             "unit": "ns",
             "range": "± 7599799.490349677"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "traconity",
+            "username": "traconity"
+          },
+          "committer": {
+            "name": "traconity",
+            "username": "traconity"
+          },
+          "id": "3089338b30c6ddac4bfe7b44a4d01b59184fdc3d",
+          "message": "Update dotnet to v8.0.8",
+          "timestamp": "2024-08-08T05:41:58Z",
+          "url": "https://github.com/traconity/tracon/pull/390/commits/3089338b30c6ddac4bfe7b44a4d01b59184fdc3d"
+        },
+        "date": 1723557296018,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Tracon.Benchmarks.PlanningBenchmark.CellList",
+            "value": 768182472.9285715,
+            "unit": "ns",
+            "range": "± 9575939.033672905"
           }
         ]
       }
