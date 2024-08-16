@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1723757185950,
+  "lastUpdate": 1723796562378,
   "repoUrl": "https://github.com/traconity/tracon",
   "entries": {
     "Benchmark": [
@@ -15608,6 +15608,36 @@ window.BENCHMARK_DATA = {
             "value": 752899314.4615384,
             "unit": "ns",
             "range": "± 5208288.030375858"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jjones@outlook.cz",
+            "name": "Jan Jones",
+            "username": "jjonescz"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f416729416792ebfaad04ee58f345d6bf7e18ea5",
+          "message": "Update dependency Microsoft.CodeAnalysis.CSharp to v4.11.0 (#392)",
+          "timestamp": "2024-08-16T10:15:25+02:00",
+          "tree_id": "cc4a60a91a5fe3163b23c99c76bc022435e77363",
+          "url": "https://github.com/traconity/tracon/commit/f416729416792ebfaad04ee58f345d6bf7e18ea5"
+        },
+        "date": 1723796561539,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Tracon.Benchmarks.PlanningBenchmark.CellList",
+            "value": 744086979,
+            "unit": "ns",
+            "range": "± 6530705.815976883"
           }
         ]
       }
