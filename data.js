@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1729842610320,
+  "lastUpdate": 1730113497665,
   "repoUrl": "https://github.com/traconity/tracon",
   "entries": {
     "Benchmark": [
@@ -16858,6 +16858,32 @@ window.BENCHMARK_DATA = {
             "value": 771521935.8571428,
             "unit": "ns",
             "range": "± 12548080.399451125"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "traconity",
+            "username": "traconity"
+          },
+          "committer": {
+            "name": "traconity",
+            "username": "traconity"
+          },
+          "id": "f55701484b0ff3b5f132f66f161961a0b5958b95",
+          "message": "Update dependency NSubstitute to 5.3.0",
+          "timestamp": "2024-10-25T07:43:02Z",
+          "url": "https://github.com/traconity/tracon/pull/411/commits/f55701484b0ff3b5f132f66f161961a0b5958b95"
+        },
+        "date": 1730113496598,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Tracon.Benchmarks.PlanningBenchmark.CellList",
+            "value": 760897756.1428572,
+            "unit": "ns",
+            "range": "± 5474425.324414143"
           }
         ]
       }
