@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1730113497665,
+  "lastUpdate": 1730189997633,
   "repoUrl": "https://github.com/traconity/tracon",
   "entries": {
     "Benchmark": [
@@ -16884,6 +16884,36 @@ window.BENCHMARK_DATA = {
             "value": 760897756.1428572,
             "unit": "ns",
             "range": "± 5474425.324414143"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jjones@outlook.cz",
+            "name": "Jan Jones",
+            "username": "jjonescz"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "14d938f811a80ae15ff2dfe90b94bfd213aeb882",
+          "message": "Update dependency NSubstitute to 5.3.0 (#411)",
+          "timestamp": "2024-10-29T09:12:23+01:00",
+          "tree_id": "0ac95876fbf95622e954a416346c4fe5219d0b0f",
+          "url": "https://github.com/traconity/tracon/commit/14d938f811a80ae15ff2dfe90b94bfd213aeb882"
+        },
+        "date": 1730189996403,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Tracon.Benchmarks.PlanningBenchmark.CellList",
+            "value": 764236528.6153846,
+            "unit": "ns",
+            "range": "± 7415276.240797479"
           }
         ]
       }
