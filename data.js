@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1731237560180,
+  "lastUpdate": 1731243104746,
   "repoUrl": "https://github.com/traconity/tracon",
   "entries": {
     "Benchmark": [
@@ -17380,6 +17380,32 @@ window.BENCHMARK_DATA = {
             "value": 752921918.2142857,
             "unit": "ns",
             "range": "± 5127988.421787109"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "traconity",
+            "username": "traconity"
+          },
+          "committer": {
+            "name": "traconity",
+            "username": "traconity"
+          },
+          "id": "8a9cff0b876fca3d4188611014ee7427bf6ea55f",
+          "message": "Migrate to Fly.io from Heroku",
+          "timestamp": "2024-11-10T10:16:36Z",
+          "url": "https://github.com/traconity/tracon/pull/418/commits/8a9cff0b876fca3d4188611014ee7427bf6ea55f"
+        },
+        "date": 1731243104078,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Tracon.Benchmarks.PlanningBenchmark.CellList",
+            "value": 757703334.2857143,
+            "unit": "ns",
+            "range": "± 4410778.806050895"
           }
         ]
       }
