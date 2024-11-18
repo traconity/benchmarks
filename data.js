@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1731943572929,
+  "lastUpdate": 1731945523860,
   "repoUrl": "https://github.com/traconity/tracon",
   "entries": {
     "Benchmark": [
@@ -17540,6 +17540,36 @@ window.BENCHMARK_DATA = {
             "value": 760431830.9285715,
             "unit": "ns",
             "range": "± 8065551.150686131"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jan.jones.cz@gmail.com",
+            "name": "Jan Jones",
+            "username": "jjonescz"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "beb8b660aee572ad6d805ea6dafcf6c95b5c145a",
+          "message": "Update dependency NReco.Logging.File to 1.2.2 (#421)",
+          "timestamp": "2024-11-18T16:51:24+01:00",
+          "tree_id": "80e5833b67797c88806f610c536e9c4445c90c12",
+          "url": "https://github.com/traconity/tracon/commit/beb8b660aee572ad6d805ea6dafcf6c95b5c145a"
+        },
+        "date": 1731945522767,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Tracon.Benchmarks.PlanningBenchmark.CellList",
+            "value": 761834580.2666667,
+            "unit": "ns",
+            "range": "± 10677269.308857033"
           }
         ]
       }
