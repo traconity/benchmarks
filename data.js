@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1732565768639,
+  "lastUpdate": 1732566914099,
   "repoUrl": "https://github.com/traconity/tracon",
   "entries": {
     "Benchmark": [
@@ -17730,6 +17730,36 @@ window.BENCHMARK_DATA = {
             "value": 772940070.3076923,
             "unit": "ns",
             "range": "± 9660383.811082909"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jan.jones.cz@gmail.com",
+            "name": "Jan Jones",
+            "username": "jjonescz"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e1a994447df80d08360c19f508d5594a2021e355",
+          "message": "Fixup conversion process after migrating to Fly.io (#423)",
+          "timestamp": "2024-11-25T21:27:56+01:00",
+          "tree_id": "75d42ae62a8419783497c52b8348e27e58cde9ba",
+          "url": "https://github.com/traconity/tracon/commit/e1a994447df80d08360c19f508d5594a2021e355"
+        },
+        "date": 1732566913390,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Tracon.Benchmarks.PlanningBenchmark.CellList",
+            "value": 756986849.2857143,
+            "unit": "ns",
+            "range": "± 9982743.396454783"
           }
         ]
       }
