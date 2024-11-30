@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1732948922525,
+  "lastUpdate": 1733004877962,
   "repoUrl": "https://github.com/traconity/tracon",
   "entries": {
     "Benchmark": [
@@ -17812,6 +17812,32 @@ window.BENCHMARK_DATA = {
             "value": 758979899.9230769,
             "unit": "ns",
             "range": "± 3952763.0668754033"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "traconity",
+            "username": "traconity"
+          },
+          "committer": {
+            "name": "traconity",
+            "username": "traconity"
+          },
+          "id": "ec43c55b92ce813e854ebe2548def809b81986ff",
+          "message": "Update dependency Xunit.SkippableFact to 1.5.23",
+          "timestamp": "2024-11-25T20:28:00Z",
+          "url": "https://github.com/traconity/tracon/pull/426/commits/ec43c55b92ce813e854ebe2548def809b81986ff"
+        },
+        "date": 1733004877172,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Tracon.Benchmarks.PlanningBenchmark.CellList",
+            "value": 755481173.1538461,
+            "unit": "ns",
+            "range": "± 7214574.617751542"
           }
         ]
       }
