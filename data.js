@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1732566914099,
+  "lastUpdate": 1732948917829,
   "repoUrl": "https://github.com/traconity/tracon",
   "entries": {
     "Benchmark": [
@@ -17760,6 +17760,32 @@ window.BENCHMARK_DATA = {
             "value": 756986849.2857143,
             "unit": "ns",
             "range": "± 9982743.396454783"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "traconity",
+            "username": "traconity"
+          },
+          "committer": {
+            "name": "traconity",
+            "username": "traconity"
+          },
+          "id": "512a8e031ab73bf68d98e70426680729877c66f2",
+          "message": "Update dependency MiniProfiler.Shared to 4.5.4",
+          "timestamp": "2024-11-25T20:28:00Z",
+          "url": "https://github.com/traconity/tracon/pull/425/commits/512a8e031ab73bf68d98e70426680729877c66f2"
+        },
+        "date": 1732948917011,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Tracon.Benchmarks.PlanningBenchmark.CellList",
+            "value": 763941556.9166666,
+            "unit": "ns",
+            "range": "± 3761135.424746639"
           }
         ]
       }
