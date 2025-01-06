@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1736184700748,
+  "lastUpdate": 1736186443862,
   "repoUrl": "https://github.com/traconity/tracon",
   "entries": {
     "Benchmark": [
@@ -18282,6 +18282,36 @@ window.BENCHMARK_DATA = {
             "value": 762867380.2,
             "unit": "ns",
             "range": "± 9872772.023818402"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jjones@outlook.cz",
+            "name": "Jan Jones",
+            "username": "jjonescz"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c5efcd62c5e7b91fd1a2a09dc8abd965a7b5b184",
+          "message": "Update dependency xunit.runner.visualstudio to v3 (#431)",
+          "timestamp": "2025-01-06T18:53:45+01:00",
+          "tree_id": "11c57f46d01a8697a4297e97239ade6ccef5de56",
+          "url": "https://github.com/traconity/tracon/commit/c5efcd62c5e7b91fd1a2a09dc8abd965a7b5b184"
+        },
+        "date": 1736186442953,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Tracon.Benchmarks.PlanningBenchmark.CellList",
+            "value": 756955202.5714285,
+            "unit": "ns",
+            "range": "± 5006735.67272847"
           }
         ]
       }
