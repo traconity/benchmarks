@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1737362969511,
+  "lastUpdate": 1737364155030,
   "repoUrl": "https://github.com/traconity/tracon",
   "entries": {
     "Benchmark": [
@@ -18584,6 +18584,36 @@ window.BENCHMARK_DATA = {
             "value": 781524512.0769231,
             "unit": "ns",
             "range": "± 5527866.076764636"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jjones@outlook.cz",
+            "name": "Jan Jones",
+            "username": "jjonescz"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3703984877683e5ccdebb7e0d220a180c55418fd",
+          "message": "Update dependency coverlet.collector to 6.0.4 (#443)",
+          "timestamp": "2025-01-20T10:01:57+01:00",
+          "tree_id": "28bbe6203f63c1aa4c17f5be7ed1ca81d93857f8",
+          "url": "https://github.com/traconity/tracon/commit/3703984877683e5ccdebb7e0d220a180c55418fd"
+        },
+        "date": 1737364153918,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Tracon.Benchmarks.PlanningBenchmark.CellList",
+            "value": 758301294.5,
+            "unit": "ns",
+            "range": "± 11484922.17665096"
           }
         ]
       }
