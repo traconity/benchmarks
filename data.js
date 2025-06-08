@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1747971769425,
+  "lastUpdate": 1749417476668,
   "repoUrl": "https://github.com/traconity/tracon",
   "entries": {
     "Benchmark": [
@@ -19030,6 +19030,32 @@ window.BENCHMARK_DATA = {
             "value": 749432192.1428572,
             "unit": "ns",
             "range": "± 3884603.7961978302"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "traconity",
+            "username": "traconity"
+          },
+          "committer": {
+            "name": "traconity",
+            "username": "traconity"
+          },
+          "id": "6f22a0db601a03e7f9196cce4a18ee597db8da7f",
+          "message": "Update dependency CliWrap to 3.9.0",
+          "timestamp": "2025-01-20T09:01:59Z",
+          "url": "https://github.com/traconity/tracon/pull/440/commits/6f22a0db601a03e7f9196cce4a18ee597db8da7f"
+        },
+        "date": 1749417475405,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Tracon.Benchmarks.PlanningBenchmark.CellList",
+            "value": 746274208.9230769,
+            "unit": "ns",
+            "range": "± 3039087.9778832076"
           }
         ]
       }
