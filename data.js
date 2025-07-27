@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1752084059248,
+  "lastUpdate": 1753623222269,
   "repoUrl": "https://github.com/traconity/tracon",
   "entries": {
     "Benchmark": [
@@ -19186,6 +19186,32 @@ window.BENCHMARK_DATA = {
             "value": 799242707.8571428,
             "unit": "ns",
             "range": "± 3783371.042785579"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "traconity",
+            "username": "traconity"
+          },
+          "committer": {
+            "name": "traconity",
+            "username": "traconity"
+          },
+          "id": "05bf31487c0cdf72e059d7bf45c1f291a20928e8",
+          "message": "Update dependency protobuf-net to 3.2.52",
+          "timestamp": "2025-01-20T09:01:59Z",
+          "url": "https://github.com/traconity/tracon/pull/445/commits/05bf31487c0cdf72e059d7bf45c1f291a20928e8"
+        },
+        "date": 1753623220912,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Tracon.Benchmarks.PlanningBenchmark.CellList",
+            "value": 768802484.8666667,
+            "unit": "ns",
+            "range": "± 8290052.956295884"
           }
         ]
       }
