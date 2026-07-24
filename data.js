@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1784917145679,
+  "lastUpdate": 1784917174726,
   "repoUrl": "https://github.com/traconity/tracon",
   "entries": {
     "Benchmark": [
@@ -19816,6 +19816,32 @@ window.BENCHMARK_DATA = {
             "value": 102061675.81428573,
             "unit": "ns",
             "range": "± 1480381.284773138"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "traconity",
+            "username": "traconity"
+          },
+          "committer": {
+            "name": "traconity",
+            "username": "traconity"
+          },
+          "id": "eadc0972df71e0e6d5692c9a7284fe07f425966b",
+          "message": "Update dorny/test-reporter action to v3",
+          "timestamp": "2026-07-24T11:58:35Z",
+          "url": "https://github.com/traconity/tracon/pull/450/commits/eadc0972df71e0e6d5692c9a7284fe07f425966b"
+        },
+        "date": 1784917173309,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Tracon.Benchmarks.PlanningBenchmark.CellList",
+            "value": 99442841.28571428,
+            "unit": "ns",
+            "range": "± 1537098.7310322742"
           }
         ]
       }
