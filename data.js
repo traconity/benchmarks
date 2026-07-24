@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1763961572879,
+  "lastUpdate": 1784878668243,
   "repoUrl": "https://github.com/traconity/tracon",
   "entries": {
     "Benchmark": [
@@ -19654,6 +19654,34 @@ window.BENCHMARK_DATA = {
             "value": 803953066.9230769,
             "unit": "ns",
             "range": "± 2685385.0359337195"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Jan Jones",
+            "username": "jjonescz",
+            "email": "janjones@microsoft.com"
+          },
+          "committer": {
+            "name": "Jan Jones",
+            "username": "jjonescz",
+            "email": "janjones@microsoft.com"
+          },
+          "id": "c3a9c007ebaabf717c1a177a7f4a042332822cc5",
+          "message": "Replace OMD feed in benchmarks",
+          "timestamp": "2026-07-24T07:30:25Z",
+          "url": "https://github.com/traconity/tracon/commit/c3a9c007ebaabf717c1a177a7f4a042332822cc5"
+        },
+        "date": 1784878666815,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Tracon.Benchmarks.PlanningBenchmark.CellList",
+            "value": 148338570.125,
+            "unit": "ns",
+            "range": "± 2744030.6546382178"
           }
         ]
       }
