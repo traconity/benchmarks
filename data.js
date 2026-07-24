@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1784895026028,
+  "lastUpdate": 1784895058474,
   "repoUrl": "https://github.com/traconity/tracon",
   "entries": {
     "Benchmark": [
@@ -19760,6 +19760,36 @@ window.BENCHMARK_DATA = {
             "value": 134754955.25,
             "unit": "ns",
             "range": "± 1710583.8923808185"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jjones@outlook.cz",
+            "name": "Jan Jones",
+            "username": "jjonescz"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6f45c057f5b1ff13ebdd0490d861bae555ce8109",
+          "message": "Update to .NET 10 (#454)\n\n[publish apk]",
+          "timestamp": "2026-07-24T13:58:12+02:00",
+          "tree_id": "f49c2d4d31ab639c52e4a856de928687b474a65a",
+          "url": "https://github.com/traconity/tracon/commit/6f45c057f5b1ff13ebdd0490d861bae555ce8109"
+        },
+        "date": 1784895057520,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Tracon.Benchmarks.PlanningBenchmark.CellList",
+            "value": 114035047.93846154,
+            "unit": "ns",
+            "range": "± 544885.1552038904"
           }
         ]
       }
