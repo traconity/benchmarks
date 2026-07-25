@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1784917177301,
+  "lastUpdate": 1784971932015,
   "repoUrl": "https://github.com/traconity/tracon",
   "entries": {
     "Benchmark": [
@@ -19868,6 +19868,36 @@ window.BENCHMARK_DATA = {
             "value": 102707792.9375,
             "unit": "ns",
             "range": "± 1758878.1155061228"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "janjones@microsoft.com",
+            "name": "Jan Jones",
+            "username": "jjonescz"
+          },
+          "committer": {
+            "email": "janjones@microsoft.com",
+            "name": "Jan Jones",
+            "username": "jjonescz"
+          },
+          "distinct": true,
+          "id": "d4bc0de1a911c64d9043c4a8c89b7934dfe9769c",
+          "message": "Fix icon\n\n[publish apk]",
+          "timestamp": "2026-07-25T11:23:14+02:00",
+          "tree_id": "b16d8b686f3b36c7fa361017a8413aadb3310b42",
+          "url": "https://github.com/traconity/tracon/commit/d4bc0de1a911c64d9043c4a8c89b7934dfe9769c"
+        },
+        "date": 1784971930946,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Tracon.Benchmarks.PlanningBenchmark.CellList",
+            "value": 144993534.625,
+            "unit": "ns",
+            "range": "± 765770.3587425915"
           }
         ]
       }
