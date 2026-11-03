@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1787160273449,
+  "lastUpdate": 1793702908861,
   "repoUrl": "https://github.com/traconity/tracon",
   "entries": {
     "Benchmark": [
@@ -20106,6 +20106,36 @@ window.BENCHMARK_DATA = {
             "value": 100071754.24285713,
             "unit": "ns",
             "range": "± 1221906.448285872"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "janjones@microsoft.com",
+            "name": "Jan Jones",
+            "username": "jjonescz"
+          },
+          "committer": {
+            "email": "janjones@microsoft.com",
+            "name": "Jan Jones",
+            "username": "jjonescz"
+          },
+          "distinct": true,
+          "id": "cdee87689ba90d1548dfea6d08ef31f179acd49e",
+          "message": "Fix Android inset handling\n\n[publish apk]",
+          "timestamp": "2026-11-02T14:05:30+01:00",
+          "tree_id": "85c5e57a4f09531af9b0fd375a9199e9101e6943",
+          "url": "https://github.com/traconity/tracon/commit/cdee87689ba90d1548dfea6d08ef31f179acd49e"
+        },
+        "date": 1793702908493,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Tracon.Benchmarks.PlanningBenchmark.CellList",
+            "value": 103457579.35000001,
+            "unit": "ns",
+            "range": "± 969014.955945684"
           }
         ]
       }
