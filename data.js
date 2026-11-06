@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1793932728022,
+  "lastUpdate": 1793932745554,
   "repoUrl": "https://github.com/traconity/tracon",
   "entries": {
     "Benchmark": [
@@ -20188,6 +20188,32 @@ window.BENCHMARK_DATA = {
             "value": 103286489.3125,
             "unit": "ns",
             "range": "± 999331.4407471669"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "traconity",
+            "username": "traconity"
+          },
+          "committer": {
+            "name": "traconity",
+            "username": "traconity"
+          },
+          "id": "cae6f2f56ea0467924d7edd15196f92aa299e93a",
+          "message": "Update GitHub Artifact Actions (major)",
+          "timestamp": "2026-11-02T13:05:56Z",
+          "url": "https://github.com/traconity/tracon/pull/451/commits/cae6f2f56ea0467924d7edd15196f92aa299e93a"
+        },
+        "date": 1793932745076,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Tracon.Benchmarks.PlanningBenchmark.CellList",
+            "value": 99587734.9076923,
+            "unit": "ns",
+            "range": "± 779674.4418964469"
           }
         ]
       }
